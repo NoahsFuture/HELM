@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - HELM</title>
+</head>
+<body>
+  <!-- The login form -->
+  <div id="loginForm">
+    <h1>Login</h1>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- Add a div to display the login error message -->
+  <div id="loginErrorMessage" style="display: none; color: red;"></div>
+
+  <!-- Add a div to display the "Welcome! Stay logged in for uninterrupted access to a world of entertainment. Enjoy seamless streaming and discover your favorite movies, TV shows, and more. Let the cinematic adventure begin! Stay logged in and let the entertainment come to you!" message -->
+  <div id="loggedInMessage" style="display: none;">
+    Welcome! Stay logged in for uninterrupted access to a world of entertainment. Enjoy seamless streaming and discover your favorite movies, TV shows, and more. Let the cinematic adventure begin! Stay logged in and let the entertainment come to you!
+  </div>
+
+  <!-- Add a div to display the "Logged In" header -->
+  <div id="loggedInHeader" style="display: none;">
+    Logged In!
+  </div>
+
+  <!-- Add the Logout button -->
+  <button id="logoutButton" style="display: none;" onclick="logout()">Logout</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
